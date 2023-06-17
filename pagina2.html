@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <form style="color: cyan;size: 20px;">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="ruimzao" required>
+        <label for="unome">Ultimo nome</label>
+        <input type="text" id="unome" name="unome" placeholder="martins" required>
+        <br>
+        <label style="color: red;size: 100px;" for="pagar">forma de pagamento:</label>
+        <select name="pagamento" id="pagamento">
+            <option value="cartao de credito">cartao de credito</option>
+            <option value="robux">robux</option>
+            <option value="kwanza">kwanza</option>
+            <option value="bolivar venezuelano">bolivarvenezuelano</option>
+        </select>
+    </form>
+    <br>
+    <br>
+    <button onclick="compra()" style="background-color: chartreuse;color: rgb(255, 0, 234);border-radius: 5px;height: 150px;;width: 200px;;font-size: large;">Comprar agora</button>
+        <h1 style="color: yellow;"><p id="compra2">Esperando Confirmação da compra do item Rafa fart</p></h1>
+    <script>
+        function compra(){
+            document.getElementById("compra2").innerHTML = "Compra finalizada! Agora verfique sua conta bancária com R$ -1,000,000"
+        }
+    </script>
+</body>
+</html>
